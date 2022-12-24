@@ -1,0 +1,1 @@
+cmd /C start /min "" powershell -windowstyle hidden -executionpolicy bypass -file .\game-helpkit.ps1 &

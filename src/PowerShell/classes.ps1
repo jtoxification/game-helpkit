@@ -106,29 +106,27 @@ class Activity
 # Windows Form Control
 class App
 {
-    Hidden [Point] $_Cursor = [Point]::new([Constants]::Border.Width, [Constants]::Border.Height)
-    [Activity[]] $Activities = @()
-    [Form] $Form = [Form]::new()
-
+    Hidden [Point] $_Cursor
+    [Activity[]] $Activities
+    [Form] $Form
     App( [string] $sTitle )
     {
+        $this._Cursor  = [Point]::new([Constants]::Border.Width, [Constants]::Border.Height)
+        $Activities     = @()
         $this.Form      = [Form]::new()
         $this.Form.Size = [Constants]::FormSize
-        $this.Form.StartPosition = 'CenterScreen'
         $this.Form.Text = $sTitle
+        $this.Form.StartPosition = 'CenterScreen'
     }
-
     AddActivity( [string]$sLabel, [string]$sBtnText, [ScriptBlock]$fBegin, [ScriptBlock]$fProcess )
     {
-        
-        $cActivity = [Activity]::new( $sLabel, $sBtnText, $fBegin, $fProcess, $this.Activities.Count + 1, $this._Cursor )
+        [Activity] $cActivity = [Activity]::new( $sLabel, $sBtnText, $fBegin, $fProcess, $this.Activities.Count + 1, $this._Cursor )
         $this.Activities += $cActivity
         
         $this.Form.Controls.Add( $cActivity.Label  )
         $this.Form.Controls.Add( $cActivity.Button )
         $this.Form.Controls.Add( $cActivity.Output )
     }
-    
     Show()
     {
         $this.Form.ShowDialog()

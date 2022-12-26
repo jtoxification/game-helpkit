@@ -1,6 +1,9 @@
 # game-helpkit
 Helper tools for troubleshooting common issues and automating various common tasks, everything from firewall exclusions to clearing & re-acquiring EAC.
 
+# Full Credits Forthcoming
+The short version is that this wouldn't have been possible without the vast amount of time and energy 
+provided by the entire volunteer help staff in the r/Star Citizen Discord server.
 
 ## Upload Notes
 First game on the implementation list is Star Citizen, but many of these troubleshooting tasks aren't game-specific.

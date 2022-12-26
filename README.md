@@ -50,56 +50,60 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 #### Lots of stuff. Nothing is guaranteed yet. Trello link forthcoming!
 
-01. Import To Do List into Trello.
+1. Import To Do List into Trello.
 
-02. Add Directory-based Class Hot-loader.
+1. Add Directory-based Class Hot-loader.
 
-03. Add directory for global troubleshooting/activities.
+1. Add directory for global troubleshooting/activities.
 
-04. Add directory for game-specific troubleshooting/activities.
+1. Swap out text-based buttons with square image-based buttons for activities and clean up alignment on form.
 
-05. Add directory for game-agnostic templates for game-specific troubleshooting/activities.
+1. Ensure form is readable at high and low resolution.
 
-06. Create start-up messages screen.
+1. Add directory for game-specific troubleshooting/activities.
 
-07. Create/load config file on startup.
+1. Add directory for game-agnostic templates for game-specific troubleshooting/activities.
 
-08. Add activity to check/warn about file space & RAM usage in startup messages.
+1. Create start-up messages screen.
 
-09. Add activity to check/warn about RSI Launcher &/or SC install location (i.e. if it's found to be anywhere in the user's OS profile, for instance).
+1. Create/load config file on startup.
 
-10. Add activity to check the Firewall & Windows Defender Antivirus for exceptions (Create a backup regfile. Use regfile templates - this should be a generic template, as all we need are the locations).
+1. Add activity to check/warn about file space & RAM usage in startup messages.
 
-11. Add activity to disable/enable Xbox Game Bar, Captures, & Game Mode (Create a backup regfile. Use a regfile template for each).
+1. Add activity to check/warn about RSI Launcher &/or SC install location (i.e. if it's found to be anywhere in the user's OS profile, for instance).
 
-12. Add activity to enable/disable hardware-accelerated gpu-scheduling and prioritize launcher & SC (Create a backup regfile. Use a regfile template).
+1. Add activity to check the Firewall & Windows Defender Antivirus for exceptions (Create a backup regfile. Use regfile templates - this should be a generic template, as all we need are the locations).
 
-13. Add activity to check power profile settings for performance mode.
+1. Add activity to disable/enable Xbox Game Bar, Captures, & Game Mode (Create a backup regfile. Use a regfile template for each).
 
-14. Add activity to check & offer to fix the Samsung+Win11 error (Create backup regfile & use regfile template).
+1. Add activity to enable/disable hardware-accelerated gpu-scheduling and prioritize launcher & SC (Create a backup regfile. Use a regfile template).
 
-15. Add activity to check for game input service Event ID 1000 errors in the Event Log. If found, warn that an EXCEPTION_ACCESS_VIOLATION error in the near future or recent past is all but certain, and provide details on general trouble-shooting (unplugging joysticks, disabling virtual joysticks, restarting, retrying, & re-plugging one at a time), disabling overlays, keeping the game installed on a separate drive from the Epic Launcher, checking USB cables, buying externally-powered USB hubs, reinstalling peripheral drivers, checking RAM for failures, & running DISM & SFC.
+1. Add activity to check power profile settings for performance mode.
 
-16. Add activity to check the pagefile - have options to set to fastest drive, and if there is sufficient memory on said drive, show option to set the pagefile usage trick (and regardless, show option to revert to OS standard, as well as option to set to OS-managed on fastest drive).
+1. Add activity to check & offer to fix the Samsung+Win11 error (Create backup regfile & use regfile template).
 
-17. Add activity to clear/backup/restore bindings & settings. Problem: if we want this to really be useful, we'll also need to provide a merge operation that lists out conflicts and deleted sections.
+1. Add activity to check for game input service Event ID 1000 errors in the Event Log. If found, warn that an EXCEPTION_ACCESS_VIOLATION error in the near future or recent past is all but certain, and provide details on general trouble-shooting (unplugging joysticks, disabling virtual joysticks, restarting, retrying, & re-plugging one at a time), disabling overlays, keeping the game installed on a separate drive from the Epic Launcher, checking USB cables, buying externally-powered USB hubs, reinstalling peripheral drivers, checking RAM for failures, & running DISM & SFC.
 
-18. Add activity to check for DXGI device hung explorer/dxgi.dll Event ID 1000 errors in the Event Log. Display results alongside button to set TdrLevel to 10 (and button to revert to 2).
+1. Add activity to check the pagefile - have options to set to fastest drive, and if there is sufficient memory on said drive, show option to set the pagefile usage trick (and regardless, show option to revert to OS standard, as well as option to set to OS-managed on fastest drive).
 
-19. Add activity to check for Win10 + Intel 12th-gen e-core issue (query GetLogicalProcessorInformation) and warn accordingly that games may stutter. Provide links to solution (and if in SC page, and on Intel 12th gen, offer to enable/disable affinity workaround for SC).
+1. Add activity to clear/backup/restore bindings & settings. Problem: if we want this to really be useful, we'll also need to provide a merge operation that lists out conflicts and deleted sections.
 
-20. Add activity to check for and apply Windows Updates.
+1. Add activity to check for DXGI device hung explorer/dxgi.dll Event ID 1000 errors in the Event Log. Display results alongside button to set TdrLevel to 10 (and button to revert to 2).
 
-21. Add activity to download prerequisite libraries.
+1. Add activity to check for Win10 + Intel 12th-gen e-core issue (query GetLogicalProcessorInformation) and warn accordingly that games may stutter. Provide links to solution (and if in SC page, and on Intel 12th gen, offer to enable/disable affinity workaround for SC).
 
-22. Add activity to check for potential interaction with overlays, Sonic Studio, Epic.
+1. Add activity to check for and apply Windows Updates.
 
-23. Add activity to display whether rsi services are down (poll the status updates site).
+1. Add activity to download prerequisite libraries.
 
-24. (Undecided) Add activity to automatically re-migrate install files elsewhere to avoid re-download.
+1. Add activity to check for potential interaction with overlays, Sonic Studio, Epic.
 
-25. (Undecided) Add activity to check & offer to run DSIM & SFC (With copius warnings).
+1. Add activity to display whether rsi services are down (poll the status updates site).
 
-26. (Undecided) Add activity to autorepair VS.NET & VC++ libraries.
+1. (Undecided) Add activity to automatically re-migrate install files elsewhere to avoid re-download.
 
-27. (Research) - Check if AMD & nvidia use registration entries for configuration. Could be useful for things like enabling full dynamic range, disabling scaling override, increasing shader cache, etc.
+1. (Undecided) Add activity to check & offer to run DSIM & SFC (With copius warnings).
+
+1. (Undecided) Add activity to autorepair VS.NET & VC++ libraries.
+
+1. (Research) - Check if AMD & nvidia use registration entries for configuration. Could be useful for things like enabling full dynamic range, disabling scaling override, increasing shader cache, etc.

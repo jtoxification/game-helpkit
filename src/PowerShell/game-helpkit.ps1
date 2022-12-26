@@ -1,6 +1,8 @@
 ﻿<#
-    sc-helpkit.ps1 - Automates common troubleshooting and tuning steps.
-     Copyright (C) 2022  jtoxification
+    game-helpkit - Automates common PC performance troubleshooting and tuning steps.
+    Not affiliated with Cloud Imperium Games.
+	
+	Copyright (C) 2022  jtoxification - I can be reached via Discord.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,7 +18,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #>
 
-# If you want to run this in PowerShell IDE, run the below command in the shell portion, first, then select "yes".
+# If you want to run this in PowerShell ISE, run the below command in the shell portion, first, then select "yes".
 # Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 using assembly System.Windows.Forms
@@ -25,6 +27,7 @@ using assembly System.Drawing
 using namespace System.Drawing
 
 # Keep the classes separate or we get an error outside of the ISE
+# Also, we'll be using a directory loader in a bit, anyway
 . .\classes.ps1
 
 # Make Our Window Pretty

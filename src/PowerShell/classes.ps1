@@ -1,6 +1,8 @@
 <#
-    sc-helpkit.ps1 - Automates numerous help checks and provides multiple bugfixes at the push of a button.
-     Copyright (C) 2022  jtoxification
+    game-helpkit.ps1 - Automates common PC performance troubleshooting and tuning steps.
+    Not affiliated with Cloud Imperium Games.
+	
+	Copyright (C) 2022  jtoxification - I can be reached via Discord.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

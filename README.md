@@ -7,7 +7,7 @@ provided by the entire volunteer help staff in the r/Star Citizen Discord server
 
 ## Upload Notes
 First game on the implementation list is Star Citizen, but many of these troubleshooting tasks aren't game-specific.
-
+(I know the directory structure kinda sucks! I'm working on it!)
 
 ## License
 Copyright (C) 2022 jtoxification aka Just Some Rando for the Star Citizen Community.
@@ -37,7 +37,10 @@ Here is the trademark information for nyan cat: https://trademarks.justia.com/85
 ## Change Log
 
 2022-12-23 - Initial Commit
+2022-12-25 - Fixed double-initialization of App Form
+           - Added stub for credits from the help staff
+		   - Added add'l directories for moving items into saner locations
 
 ## To Do
 
-1. Lots of stuff
+1. Lots of stuff. Trello link forthcoming!

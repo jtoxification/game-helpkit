@@ -5,10 +5,10 @@ Helper tools for troubleshooting common issues and automating various common tas
 
 I can be reached via Discord.
 
-## Full Credits Forthcoming
+### Full Credits Forthcoming
 The short version is that this wouldn't have been possible without the vast amount of time and energy provided by the entire volunteer help staff in the r/Star Citizen Discord server.
 
-## Upload Notes
+### Upload Notes
 First game on the implementation list is Star Citizen, but many of these troubleshooting tasks aren't game-specific.
 
 
@@ -16,7 +16,6 @@ First game on the implementation list is Star Citizen, but many of these trouble
 Copyright (C) 2022 jtoxification aka Just Some Rando for the Star Citizen Community.
 
 Not affiliated with Cloud Imperium Games
-
 
 https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -30,9 +29,6 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-### Add'l Info
-
 
 ## Change Log
 
@@ -52,7 +48,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 1. Import To Do List into Trello.
 
-1. Add Directory-based Class Hot-loader.
+1. Add directory-based class loader.
 
 1. Add directory for global troubleshooting/activities.
 
@@ -80,7 +76,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 1. Add activity to check power profile settings for performance mode.
 
-1. Add activity to check & offer to fix the Samsung+Win11 error (Create backup regfile & use regfile template).
+1. Add activity to check & offer to fix the Samsung + Win11 error (Create backup regfile & use regfile template).
 
 1. Add activity to check for game input service Event ID 1000 errors in the Event Log. If found, warn that an EXCEPTION_ACCESS_VIOLATION error in the near future or recent past is all but certain, and provide details on general trouble-shooting (unplugging joysticks, disabling virtual joysticks, restarting, retrying, & re-plugging one at a time), disabling overlays, keeping the game installed on a separate drive from the Epic Launcher, checking USB cables, buying externally-powered USB hubs, reinstalling peripheral drivers, checking RAM for failures, & running DISM & SFC.
 
@@ -92,7 +88,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 1. Add activity to check for Win10 + Intel 12th-gen e-core issue (query GetLogicalProcessorInformation) and warn accordingly that games may stutter. Provide links to solution (and if in SC page, and on Intel 12th gen, offer to enable/disable affinity workaround for SC).
 
-1. Add activity to check for and apply Windows Updates.
+1. Add activity to check for and apply Windows updates.
 
 1. Add activity to download prerequisite libraries.
 

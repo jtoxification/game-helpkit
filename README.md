@@ -1,19 +1,23 @@
 # game-helpkit
 Helper tools for troubleshooting common issues and automating various common tasks, everything from firewall exclusions to clearing & re-acquiring EAC.
 
+(I know the directory structure kinda sucks! I'm working on it!)
+
+I can be reached via Discord.
+
 # Full Credits Forthcoming
-The short version is that this wouldn't have been possible without the vast amount of time and energy 
-provided by the entire volunteer help staff in the r/Star Citizen Discord server.
+The short version is that this wouldn't have been possible without the vast amount of time and energy provided by the entire volunteer help staff in the r/Star Citizen Discord server.
 
 ## Upload Notes
 First game on the implementation list is Star Citizen, but many of these troubleshooting tasks aren't game-specific.
-(I know the directory structure kinda sucks! I'm working on it!)
+
 
 ## License
 Copyright (C) 2022 jtoxification aka Just Some Rando for the Star Citizen Community.
+
 Not affiliated with Cloud Imperium Games
 
-I can be reached via Discord.
+
 https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
 This program is free software: you can redistribute it and/or modify
@@ -36,10 +40,13 @@ Here is the trademark information for nyan cat: https://trademarks.justia.com/85
 
 ## Change Log
 
-2022-12-23 - Initial Commit
-2022-12-25 - Fixed double-initialization of App Form
-           - Added stub for credits from the help staff
-		   - Added add'l directories for moving items into saner locations
+2022-12-23  - Initial Commit
+
+2022-12-25a - Fixed double-initialization of App Form
+
+2022-12-25b - Added stub for credits from the help staff
+
+2022-12-25c - Added add'l directories for moving items into saner locations
 
 ## To Do
 

@@ -13,8 +13,7 @@ First game on the implementation list is Star Citizen, but many of these trouble
 
 
 ## License
-Copyright (C) 2022 jtoxification aka Just Some Rando for the Star Citizen Community.
-
+Copyright (C) 2022 jtoxification aka Just Some Rando for the r/StarCitizen help team and the Star Citizen Community.
 Not affiliated with Cloud Imperium Games
 
 https://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -41,6 +40,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 2022-12-25c - Added add'l directories for moving items into saner locations.
 
 2022-12-25d - Added Syntexx's cat as icon (permission granted as of 2022-12-26 01:13 UTC).
+
+2023-04-17a - Added registry templates for Firewall, Defender, and High Performance settings. Will circle back for Fullscreen Optimization before implementing these activities.
 
 ## To Do
 
